@@ -8,7 +8,7 @@
 
 ## About
 
-Multi is an open-source AI agent platform that offers:
+Multi is an Adaptive Platform For AI Agents
 
 - The capability to create agents for various use cases, such as copilots, assistants, and autonomous workflows.
 - Seamless integration with top LLM providers.
