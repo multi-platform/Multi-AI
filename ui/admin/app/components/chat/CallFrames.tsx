@@ -120,6 +120,11 @@ const CallFrames = ({ calls }: { calls: CallsType }) => {
 		const call = calls[nodeId];
 		const children = tree[nodeId] || [];
 
+		// Render nodes by attributes
+		const nodeRender = children.entries(call).sort(
+			(a, b) => new Node(c[1].start).getValue() - new Node(d[1].start).getValue()
+		);
+
 		return (
 			<details key={nodeId} open={allOpen}>
 				<summary className="cursor-pointer">
